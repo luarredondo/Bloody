@@ -1,34 +1,107 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloody - Don de Sang</title>
-    <!-- Lier le fichier CSS externe -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Bloody - Don de Sang</h1>
-        <nav class="navbar">
-            <div class="container">
-                <ul class="nav-links">
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">À Propos</a></li>
-                    <li><a href="#">Campagnes</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bloody - Don de Sang</title>
+        <link rel="icon" href="asset/YOOPY8JUMP-removebg-preview.png">
+        <!-- Lier le fichier CSS externe -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    </head> 
+        <header>
+            <div class="bandeau" id="retour">
+                <img src="asset/YOOPY8JUMP-removebg-preview.png" alt="left-img">
+                <h1>
+                    Bloody
+                    <div class="red-title">
+                        Sang litres
+                    </div>
+                </h1>
+                <img src="asset/YOOPY8JUMP-removebg-preview.png" alt="left-img">
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <h2>Notre Projet</h2>
-        <p>
-            Bienvenue sur notre site web dédié au projet citoyen "Don de Sang". Notre mission est de sensibiliser et encourager les citoyens à donner leur sang pour sauver des vies.
-        </p>
-        <p>
-            Nous organisons régulièrement des campagnes de don de sang dans votre région. Rejoignez-nous et faites une différence dans la vie de ceux qui ont besoin de sang.
-        </p>
-    </div>
-</body>
+
+            <div class="navbar">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#efs">EFS</a></li>
+                <li><a href="#quisommesnous">Qui sommes nous</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </header>
+
+        <a href="#retour" class="rollback">
+            <img src="asset/rollback.png" alt="icon-rollback" class="rollback-img">
+        </a>
+        <main>
+            <div class="container" id="accueil">
+                <div>
+                    <h3 class="obj-p">
+                        Présentation du projet et de ses objectifs 
+                    </h3>
+                    <p class="description-accueil">
+                        Bloody – Sang Litres est un projet réalisé par des étudiants du CESI d’Orléans ayant pour objectif d’organiser sur une ou plusieurs dates, une collecte de sang en collaboration avec l’EFS au sein du campus universitaire d’Orléans, afin d’aider ces semblables. <br><br>
+                        Les besoins de sang en France sont importants. Chaque année, plus de <b style="color: aliceblue;"> 1 million de dons sont nécessaires </b> pour répondre aux besoins des patients, alors nous avons besoin de vous.
+                    </p>
+                    <p class="description-accueil" style="margin-top: -80px;">
+                        Qui peut donner son sang ?
+                        Vous avez entre 18 et 70 ans révolus ?
+                        Vous pesez plus de 50kg ?
+                        Seul le professionnel de santé de l’EFS peut confirmer que vous pouvez donner le jour de votre don à l’issue de votre entretien médical.
+                    </p>
+                    <p class="description-accueil" style="margin-top: -80px;">
+                        Vous êtes intéressé(e) pour effectuer un don de sang ? Faites-le nous savoir !
+                    </p>
+                    <a href="https://forms.office.com/e/nC1BiWv44E" class="btn-form">
+                        Je donne mon sang
+                    </a>
+                </div>
+                <img src="asset/accueil.jpg" alt="info" class="infosupp">
+            </div>
+            <h3 class="efs-title" id="efs">
+                EFS
+            </h3>
+            <div class="container">
+                <a href="https://dondesang.efs.sante.fr/">
+                    <img src="asset/efs.jpg" alt="efs" class="efs-img">
+                </a>
+                    <p class="description-accueil">
+                    L'Établissement Français du Sang (EFS) est l'organisme officiel de collecte de sang en France. Il sera notre partenaire pour cet événement. Il a pour mission de collecter, de traiter et de distribuer du sang et des produits sanguins labiles.
+                </p> 
+                <img src="asset/goutte kaiwai.png" alt="bloody" class="bloody-efs">
+            </div>
+
+            <h3 class="efs-title" id="quisommesnous">
+                Qui sommes nous 
+            </h3>
+            <div class="container">
+                <img src="asset/grp.png" alt="groupe bloody" class="grp-img">
+                <p>
+                    Bloody - Sang Litres a été créé par un groupe d'étudiants du CESI d'Orléans.
+                    <br> <br>
+                    Les membres de l'équipe sont motivés par l'envie d'aider les autres et de sauver des vies.
+                    Ce projet s’inscrit dans le cadre de nos études, dans le contexte de création d’un projet citoyen.
+                </p>
+            </div>  
+        </main>
+        <footer>
+            <h1 id="contact"> 
+                Contact
+            </h1>
+            <div class="reseaux">
+                <a href="https://www.facebook.com/profile.php?id=61552102177976&locale=fr_FR">
+                    <img src="asset/fb.png" alt="Facebook" href="">
+                </a>
+                <a href="mailto:bloodysanglitres@gmail.com" style="margin-left: 20px; margin-right: 20px">
+                    <img src="asset/gmail.png" alt="Gmail">
+                </a>
+                <a href="https://www.linkedin.com/in/bloody-sang-litres-7312a5295/">
+                    <img src="asset/linkedin.png" alt="Linkedin">
+                </a>
+            </div>
+
+            <h3>
+                bloodysanglitres@gmail.com
+            </h3>
+        </footer>
+    </body>
 </html>
