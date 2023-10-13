@@ -289,5 +289,8 @@ footer .reseaux img:hover{
         font-size: 10px;
     }main h1{
         font-size: 15px;
+    }.rollback-img{
+        height: 35px;
+        width: 35px;
     }
 }
