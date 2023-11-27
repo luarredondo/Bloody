@@ -89,6 +89,10 @@ header a:hover {
     padding: 5px;
 }
 
+.description-accueil b{
+    color: aliceblue;
+}
+
 /* main */
 
 main{
